@@ -200,9 +200,11 @@ a {
 .banner {
     background-color: var(--primary-color);
 }
-.blog-post-inner{
+
+.blog-post-inner {
     padding: 30px 50px;
 }
+
 /* Footer */
 .footer-bottom,
 .footer-primary {
@@ -243,4 +245,30 @@ a {
 .owl-style-1:hover .owl-prev span,
 .owl-style-1:hover .owl-next span {
     color: #f8f9fa;
+}
+
+/*About*/
+
+.rim {
+    height: 5px;
+    display: block;
+    background-color: #c61f1f;
+    margin: 0em 18px 0em;
+    width: 100%;
+    max-width: 30px;
+}
+
+.boded {
+    height: 7px;
+    display: block;
+    background-color: #c61f1f;
+    width: 100%;
+}
+
+.pdl {
+    padding: 28px 0px 33px 28px;
+}
+
+.bxdow {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .19), 0 6px 6px rgba(0, 0, 0, .22);
 }
