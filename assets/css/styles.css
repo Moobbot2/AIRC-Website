@@ -1,0 +1,197 @@
+:root {
+    --primary-color: rgb(198, 31, 31);
+    --primary-color-hover: rgb(224, 37, 37);
+    --color-light: #f8f9fa;
+}
+
+body {
+    background-color: var(--color-light);
+}
+
+a {
+    text-decoration: none;
+}
+
+.font-700 {
+    font-weight: 700;
+}
+
+.has-hover .bg,
+.has-hover img {
+    -webkit-transition: opacity .6s, -webkit-filter .6s, -webkit-transform .6s, -webkit-box-shadow .3s;
+    transition: opacity .6s, -webkit-filter .6s, -webkit-transform .6s, -webkit-box-shadow .3s;
+    -o-transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
+    transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s;
+    transition: filter .6s, opacity .6s, transform .6s, box-shadow .3s, -webkit-filter .6s, -webkit-transform .6s, -webkit-box-shadow .3s
+}
+
+.bg-color .bg,
+.bg-grayscale:hover .bg,
+.has-hover .image-color img,
+.has-hover:hover .image-grayscale img {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+}
+
+.bg-color:hover .bg,
+.has-hover:hover .image-color img {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+}
+
+.bg-zoom:hover .bg,
+.has-hover:hover img {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+/* box */
+.box,
+.box-image,
+.box-text {
+    -webkit-transition: opacity .3s, background-color .3s, -webkit-transform .3s;
+    transition: opacity .3s, background-color .3s, -webkit-transform .3s;
+    -o-transition: opacity .3s, transform .3s, background-color .3s;
+    transition: opacity .3s, transform .3s, background-color .3s;
+    transition: opacity .3s, transform .3s, background-color .3s, -webkit-transform .3s;
+}
+
+.box-image {
+    position: relative;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.box-text {
+    padding-top: 0.7em;
+    padding-bottom: 1.4em;
+    position: relative;
+    width: 100%;
+    font-size: .9em;
+}
+
+/* box */
+/* button */
+.btn-outline-style-1 {
+    color: var(--color-light);
+    border-color: var(--color-light);
+}
+
+.btn-outline-style-1:hover,
+.btn-outline-style-1:focus {
+    color: var(--primary-color);
+    background-color: var(--color-light);
+}
+
+/* header start */
+.logo-header {
+    height: 80px;
+}
+
+.header-bg-color,
+.header-wrapper {
+    background-color: var(--primary-color);
+}
+
+.header-top {
+    min-height: 30px;
+    position: relative;
+    z-index: 11;
+}
+
+.header-bottom {
+    background-color: var(--primary-color);
+}
+
+.header-top,
+.header-bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap;
+}
+
+#top-bar {
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    line-height: 40px;
+}
+
+/* header end */
+/* nav */
+
+.navbar-style-1 {
+    background-color: var(--color-light);
+    height: 100px;
+}
+
+.navbar-style-1 .navbar-collapse {
+    justify-content: end;
+}
+
+.navbar-style-1 a,
+.navbar-style-1 .navbar-nav .nav-link {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.navbar-style-1 .navbar-nav .nav-link:focus,
+.navbar-style-1 .navbar-nav .nav-link:hover {
+    color: var(--primary-color-hover);
+}
+
+.navbar-style-1 .navbar-nav>.nav-item>.nav-link {
+    text-transform: uppercase;
+}
+
+.navbar-style-1 .dropdown-item:focus,
+.dropdown-item:hover {
+    color: var(--primary-color-hover);
+}
+
+.nav-right {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+
+.top-bar-nav a {
+    position: relative;
+    font-size: 15px !important;
+    color: white !important;
+    margin-top: 8px;
+}
+
+@media(min-width: 850px) {
+    .top-bar-nav>li {
+        margin: 0 .7em
+    }
+
+    .top-bar-nav>li+li>a:after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        width: 1px;
+        border-left: 1px solid rgba(0, 0, 0, .1);
+        height: 15px;
+        margin-top: -7px;
+        left: -1em
+    }
+
+    .top-bar-nav>li+li.icon-top>a:after {
+        height: 50px;
+        margin-top: -25px
+    }
+}
+
+/* banner */
+.banner {
+    background-color: var(--primary-color);
+}
