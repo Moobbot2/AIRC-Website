@@ -200,3 +200,16 @@ a {
 .banner {
     background-color: var(--primary-color);
 }
+/* Footer */
+.footer-bottom,
+.footer-primary{
+    color: var(--color-light);
+    background-color: var(--primary-color);
+}
+.footer-bottom{
+    padding: 0.5rem;
+    text-align: center;
+}
+.footer-bottom a{
+    color: var(--color-light);
+}
