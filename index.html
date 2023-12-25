@@ -6,6 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>AIRC - ITI</title>
 	<link rel="stylesheet" href="./assets/plugin/bootstrap/bootstrap5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
+	<link rel="stylesheet" href="./assets/plugin/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
 	<link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 
@@ -35,7 +37,8 @@
 			<nav class="navbar navbar-expand-lg navbar-light bg-light navbar-style-1">
 				<div class="container-fluid mx-md-4">
 					<a class="navbar-brand" href="#">
-						<img src="./images/logo_full.png" alt="" class="logo-header img-fluid">
+						<img src="./images/logo_full.png" alt="" class="logo-header img-fluid logo-1">
+						<img src="./images/logo.png" alt="" class="logo-header img-fluid logo-2 d-none">
 					</a>
 					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
 						aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -116,74 +119,61 @@
 		</div>
 		<section class="section">
 			<div class="section-content banner">
-				<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-					<div class="carousel-inner has-hover">
-						<div class="carousel-item post-item active">
-							<div class="row h-100">
-								<div class="col-sm-7 p-0 m-0">
-									<div class="box-image">
-										<img class="d-block img-fluid hover-zoom" src="./images/kyket.png"
-											alt="First slide">
-									</div>
-								</div>
-								<div class="col-sm-5 d-flex justify-content-center align-items-center">
-									<div class="box-text text-left">
-										<div class="box-text-inner blog-post-inner text-white">
-											<h3 class="post-title">2023 Annual Science and
-												Technology Conference
-											</h3>
-											<p class="post-summary is-large">On the morning of June 30, 2023, the
-												Information Technology Institute – Vietnam National University, Hanoi
-												(VNU)
-												organized the 2023 Annual Science and Technology Conference to promote
-												academic exchanges between ... </p>
-											<a href="#" class="btn btn-outline-style-1 text-uppercase font-700">
-												Read more... </a>
-										</div>
-									</div>
+				<div class="owl-carousel owl-theme owl-style-1">
+					<div class="item">
+						<div class="row">
+							<div class="col-sm-7 p-0 m-0">
+								<div class="box-image">
+									<img class="d-block img-fluid hover-zoom" src="./images/kyket.png"
+										alt="First slide">
 								</div>
 							</div>
-						</div>
-						<div class="carousel-item post-item">
-							<div class="row h-100">
-								<div class="col-sm-7 p-0 m-0">
-									<div class="box-image">
-										<img class="d-block img-fluid hover-zoom" src="./images/ITI.jpg"
-											alt="First slide">
-									</div>
-								</div>
-								<div class="col-sm-5 d-flex justify-content-center align-items-center">
-									<div class="box-text text-left">
-										<div class="box-text-inner blog-post-inner text-white">
-											<h3 class="post-title">Promote collaboration with the Academy of
-												Cryptography Techniques, Government Cipher Committee in semiconductor
-												chip
-												design and developing security solutions for monitoring Big Data
-											</h3>
-											<p class="post-summary is-large">On August 22, 2023, the Information
-												Technology
-												Institute, Vietnam National University, Hanoi welcomed the delegation of
-												Hong Kong University of Science and Technology (HKUST), led by Prof.
-												Hong Lo
-												– ... </p>
-											<a href="#" class="btn btn-outline-style-1 text-uppercase font-700">
-												Read more... </a>
-										</div>
+							<div class="col-sm-5 d-flex justify-content-center align-items-center">
+								<div class="box-text text-left">
+									<div class="box-text-inner blog-post-inner text-white">
+										<h3 class="post-title">2023 Annual Science and
+											Technology Conference
+										</h3>
+										<p class="post-summary is-large">On the morning of June 30, 2023, the
+											Information Technology Institute – Vietnam National University, Hanoi
+											(VNU)
+											organized the 2023 Annual Science and Technology Conference to promote
+											academic exchanges between ... </p>
+										<a href="#" class="btn btn-outline-style-1 text-uppercase font-700">
+											Read more... </a>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
-					<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-						data-bs-slide="prev">
-						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Previous</span>
-					</button>
-					<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-						data-bs-slide="next">
-						<span class="carousel-control-next-icon" aria-hidden="true"></span>
-						<span class="visually-hidden">Next</span>
-					</button>
+					<div class="item">
+						<div class="row">
+							<div class="col-sm-7 p-0 m-0">
+								<div class="box-image">
+									<img class="d-block img-fluid hover-zoom" src="./images/ITI.jpg" alt="First slide">
+								</div>
+							</div>
+							<div class="col-sm-5 d-flex justify-content-center align-items-center">
+								<div class="box-text text-left">
+									<div class="box-text-inner blog-post-inner text-white">
+										<h3 class="post-title">Promote collaboration with the Academy of
+											Cryptography Techniques, Government Cipher Committee in semiconductor
+											chip
+											design and developing security solutions for monitoring Big Data
+										</h3>
+										<p class="post-summary is-large">On August 22, 2023, the Information
+											Technology
+											Institute, Vietnam National University, Hanoi welcomed the delegation of
+											Hong Kong University of Science and Technology (HKUST), led by Prof.
+											Hong Lo
+											– ... </p>
+										<a href="#" class="btn btn-outline-style-1 text-uppercase font-700">
+											Read more... </a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 		</section>
@@ -205,6 +195,29 @@
 		</footer>
 	</div>
 </body>
+<script src="./assets/plugin/jquery-3.7.1.js"></script>
 <script src="./assets/plugin/bootstrap/bootstrap5/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/plugin/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+<script>
+$('.owl-carousel').owlCarousel({
+	margin: 10,
+		loop: true,
+		nav: true,
+		dots:false,
+		autoplay: true,
+		autoplayHoverPause:true,
+		margin: 20,
+		responsive: {
+			0: {
+				items: 1
+			},
+			600: {
+				items: 1
+			},
+			1000: {
+				items: 1
+			}
+		}
+	})</script>
 
 </html>
