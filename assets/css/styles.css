@@ -16,6 +16,10 @@ a {
     font-weight: 700;
 }
 
+.is-large {
+    font-size: 1.15rem;
+}
+
 .has-hover .bg,
 .has-hover img {
     -webkit-transition: opacity .6s, -webkit-filter .6s, -webkit-transform .6s, -webkit-box-shadow .3s;
@@ -75,6 +79,7 @@ a {
 /* box */
 /* button */
 .btn-outline-style-1 {
+    border-width: 2px;
     color: var(--color-light);
     border-color: var(--color-light);
 }
