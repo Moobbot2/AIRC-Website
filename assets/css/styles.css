@@ -54,6 +54,11 @@ a {
     transform: scale(1.1)
 }
 
+.section {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
 /* box */
 .box,
 .box-image,
@@ -339,9 +344,11 @@ a {
     height: 100%;
 }
 
+
+.dividing-line {}
+
 .section {
     position: relative;
-    margin-bottom: 1.5rem;
 }
 
 .opacity-1 {
@@ -413,4 +420,16 @@ a {
     width: 100% !important;
     height: 5px;
     margin: 5px 0;
+}
+
+.footer-info i {
+    color: var(--primary-color-ct);
+    font-size: 20px;
+}
+.footer-info .info-item,
+.footer-info a{
+    color: black;
+}
+.footer-info .info-item{
+    margin-bottom: 10px;
 }
